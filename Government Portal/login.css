@@ -1,0 +1,37 @@
+.right-mid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: #edf2f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 50px;
+    height: 70vh;
+    padding: 0 70px 0 70px;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px 1px gray;
+    
+}
+.box1 > .or{
+    display: flex;
+    justify-content: center;
+}
+.nav-btn{
+    margin-left: 10px;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

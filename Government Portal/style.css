@@ -1,0 +1,67 @@
+
+*{
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#6a6a6a;
+    height: 15vh;
+}
+.mid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    /* background-image: url(./Images/GPortal\ Background.jpg);
+    background-position: center; */
+    height: 80vh;
+    background-color: #e3e3e3;
+}
+.left-mid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 50px;
+    
+}
+.left-mid > h1,h4,p{
+    margin-top: 10px;
+}
+.right-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 50px;
+    height: 60vh;
+    padding: 30px;
+}
+.navbar-nav{
+    width: 100vw;
+}
+.nav-item{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.nav-item > a:hover{
+    text-decoration: underline;
+}
+.top{
+    background-color: #f7f7f7;
+}
+.nav-btn{
+    margin-left: 10px;
+}
+

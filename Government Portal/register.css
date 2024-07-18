@@ -1,0 +1,49 @@
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0;
+    box-shadow: 1px 1px 2px gray;
+    background-color: #edf2f4;
+}
+.form-item{
+    flex-basis: 40%;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+input{
+    margin-left: 20px;
+}
+/* .navbar-nav{
+    width: 100vw;
+}
+.nav-item{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.top{
+    background-color: #f7f7f7;
+} */
+.nav-btn{
+    margin-left: 10px;
+}
+.loginbtn{
+    margin-left: 10px;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
